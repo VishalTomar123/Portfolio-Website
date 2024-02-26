@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>  
+  <link rel="stylesheet" href=
+"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+ 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;500&display=swap" rel="stylesheet"> 
+<link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid">
+      <header class="header" >
+            <button type="button" class="btn but" onclick="menu()" id="click"><span class="bi bi-list"></span></button>
+            <h1 class="text-muted name">Vishal Tomar</h1>
+      </header>
+      </div>
+          <div class="col-sm-3">
+          <nav class="navbar-inverse nav" >
+            <ul class="menu" id="nav">
+            <button type="button" onclick="cross()" class="cross" id="cross">X</button>
+            <li><a href="Portfoilio.html" target="_self">Home</a></li>
+            <li><a href="Cv.html" target="_self">Cv</a></li>
+            <li><a href="Skills.html" target="_self">Skills</a></li>
+            <li><a href="Certificates.html" target="_self">Certificates</a></li>
+            <li><a href="project.html" target="_self">Projects</a></li>
+            <li><a href="Social.html" target="_self">Social Links</a></li>
+            <li><a href="Contact.php" target="_self">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+          <div class="col-sm-6 into">
+            <h2><b>Hello, I am Vishal Tomar </b></h2>
+            <h3>Software developer, Web developer </h3>
+            <p>I am currently pursuing a B.Tech specializing in Computer Science at ABESIT, Ghaziabad. Proficient in HTML, CSS, JavaScript, Bootstrap, jQuery, PHP, MySQL, GIT and Java, their skill set spans various programming languages and web development tools. Holding certificates in Java, Python, Young Professional, and Effective Presentation, I am embody a passion for continuous learning.</p>
+            <a href="Cv.html"><button class="button but2">Download Cv</button></a>&nbsp;&nbsp;
+            <a href="Contact.php"><button class="button but2">Contact Me</button></a>
+          </div>
+          <div class="col-sm-3 into">
+            <a href="images/Vishal.jpg" target="_blank"><img src="images/Vishal.jpg" alt="My picture" class="photo" class="photo"></a>
+          </div>
+</body>
+<script>
+$(document).ready(function(){
+  $("#click").click(function(){
+    $("nav").toggle(500);
+  });
+  $("#cross").click(function(){
+    $("nav").hide(500);
+  });
+});
+</script>
+</html>

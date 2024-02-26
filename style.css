@@ -1,0 +1,101 @@
+.header{
+    background-color:black;
+    width: auto;
+    height: auto;
+}
+.but{
+    background-color: black;
+    color:white;
+    border: 1px solid white;
+    margin:10px;
+}
+
+.but:hover{
+    color:white;
+    box-shadow: 2px 2px white;
+}
+
+.but2{
+    height:50px;
+    border-radius:10px 10px;
+    background-color: darkblue;
+    color: white;
+}
+
+.but2:hover{
+    box-shadow: 4px 4px Gray;
+}
+
+.name{
+    display:inline; 
+    color: white;
+    position:relative; 
+    top:10px; 
+    left: 600px;
+}
+
+.nav{
+    width:300px;
+    display:none;
+}
+
+.menu{
+    list-style-type: none;
+    font-size: 2em;
+    height:660px;
+}
+
+li{
+    padding:15px;
+}
+
+.cross{
+    position:relative;
+    top:5px;
+    left:210px;
+    background-color: black;
+    color: white;
+}
+
+.cross:hover{
+    box-shadow: 2px 2px dimgray;
+}
+
+.photo{
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+}
+
+.photo:hover{
+    height: 250px;
+    width: 250px;
+    background-size: cover;
+    box-shadow: 5px 5px 5px 5px gray;
+}
+
+.into{
+    position:relative;
+    top:200px;
+
+}
+
+.photo{
+    border:2px solid black;
+    border-radius: 100% 100% 100% 100%;
+}
+
+.cv{
+    width:60rem;
+    height: 70rem;
+    background-size: cover;
+    
+}
+
+.skills{
+    width:max-content;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px 10px;
+    margin: 5px;
+}
